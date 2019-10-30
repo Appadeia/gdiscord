@@ -5,4 +5,4 @@ toki! ijo ni li "GDiscord."
 
 o pali kepeken "GDiscord" e jan kiwen!
 
-![sitelen GDiscord](https://github.com/Appadeia/gdiscord/raw/master/logo.svg)
+![sitelen GDiscord](https://github.com/Appadeia/gdiscord/raw/master/gdiscord.png)
