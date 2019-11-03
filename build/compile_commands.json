@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "/home/cdblack/git/gdiscord/build",
+    "command": "valac -C --debug --debug --pkg json-glib-1.0 --pkg libsoup-2.4 --pkg gobject-2.0 --pkg glib-2.0 --color=always --directory meson-out/76b5a35@@gdiscord@sha --basedir ../lib --library gdiscord --header meson-out/gdiscord.h --vapi ../gdiscord.vapi --gir ../GDiscord-1.0.gir ../lib/client/client.vala",
+    "file": "../lib/client/client.vala",
+    "output": "meson-out/76b5a35@@gdiscord@sha/client/client.c"
+  },
+  {
+    "directory": "/home/cdblack/git/gdiscord/build",
+    "command": "cc -Imeson-out/76b5a35@@gdiscord@sha -Ilib -I../lib -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/libxml2 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -fPIC -pthread -MD -MQ 'meson-out/76b5a35@@gdiscord@sha/meson-generated_client_client.c.o' -MF 'meson-out/76b5a35@@gdiscord@sha/meson-generated_client_client.c.o.d' -o 'meson-out/76b5a35@@gdiscord@sha/meson-generated_client_client.c.o' -c 'meson-out/76b5a35@@gdiscord@sha/client/client.c'",
+    "file": "meson-out/76b5a35@@gdiscord@sha/client/client.c",
+    "output": "meson-out/76b5a35@@gdiscord@sha/meson-generated_client_client.c.o"
+  },
+  {
+    "directory": "/home/cdblack/git/gdiscord/build",
+    "command": "valac -C --debug --debug --pkg json-glib-1.0 --pkg libsoup-2.4 --pkg gobject-2.0 --pkg glib-2.0 --color=always --directory meson-out/c590b3c@@gdiscord-test@exe --basedir ../examples ../examples/test.vala meson-out/gdiscord.vapi",
+    "file": "../examples/test.vala",
+    "output": "meson-out/c590b3c@@gdiscord-test@exe/test.c"
+  },
+  {
+    "directory": "/home/cdblack/git/gdiscord/build",
+    "command": "cc -Imeson-out/c590b3c@@gdiscord-test@exe -Iexamples -I../examples -Iexamples/../lib -I../examples/../lib -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/libsoup-2.4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/libxml2 -I/usr/include/json-glib-1.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -pthread -MD -MQ 'meson-out/c590b3c@@gdiscord-test@exe/meson-generated_test.c.o' -MF 'meson-out/c590b3c@@gdiscord-test@exe/meson-generated_test.c.o.d' -o 'meson-out/c590b3c@@gdiscord-test@exe/meson-generated_test.c.o' -c 'meson-out/c590b3c@@gdiscord-test@exe/test.c'",
+    "file": "meson-out/c590b3c@@gdiscord-test@exe/test.c",
+    "output": "meson-out/c590b3c@@gdiscord-test@exe/meson-generated_test.c.o"
+  }
+]

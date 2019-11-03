@@ -1,7 +1,11 @@
 static int main(string[] args) {
     var loop = new MainLoop();
     
-    var client = new GDiscord.Client("ood", loop.get_context());
+    if (args[1] == null) {
+        print("You forgot to pass a token!\n");
+        return 1;
+    }
+    var client = new GDiscord.Client(args[1]);
     client.run();
 
     loop.run();

@@ -1,0 +1,36 @@
+Build started at 2019-11-02T20:51:28.499876
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.51.2
+Source dir: /home/cdblack/git/gdiscord
+Build dir: /home/cdblack/git/gdiscord/build
+Build type: native build
+Project name: gdiscord
+Project version: 0.1
+C compiler for the host machine: cc (gcc 9.2.1 "cc (SUSE Linux) 9.2.1 20190903 [gcc-9-branch revision 275330]")
+Vala compiler for the host machine: valac (valac 0.46.3)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Dependency glib-2.0 found: YES (cached)
+Dependency gobject-2.0 found: YES (cached)
+Dependency libsoup-2.4 found: YES (cached)
+Dependency json-glib-1.0 found: YES (cached)
+Program g-ir-compiler found: YES (/usr/bin/g-ir-compiler)
+Build targets in project: 3
+Found ninja-1.9.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmp31ovnad8
+Command line:  cc /tmp/tmp31ovnad8/testfile.c -o /tmp/tmp31ovnad8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib64/gcc/x86_64-suse-linux/9/
+programs: =/usr/lib64/gcc/x86_64-suse-linux/9/:/usr/lib64/gcc/x86_64-suse-linux/9/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/9/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/9/../../../../x86_64-suse-linux/bin/x86_64-suse-linux/9/:/usr/lib64/gcc/x86_64-suse-linux/9/../../../../x86_64-suse-linux/bin/
+libraries: =/usr/lib64/gcc/x86_64-suse-linux/9/:/usr/lib64/gcc/x86_64-suse-linux/9/../../../../x86_64-suse-linux/lib/x86_64-suse-linux/9/:/usr/lib64/gcc/x86_64-suse-linux/9/../../../../x86_64-suse-linux/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/9/../../../x86_64-suse-linux/9/:/usr/lib64/gcc/x86_64-suse-linux/9/../../../../lib64/:/lib/x86_64-suse-linux/9/:/lib/../lib64/:/usr/lib/x86_64-suse-linux/9/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/9/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Library versioning disabled because we do not have symlink creation privileges.
+Library versioning disabled because we do not have symlink creation privileges.
